@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fashion Studio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero" id="hero">
+      <div class="hero-content">
+        <span class="hero-badge">✦ Nova Coleção 2025</span>
+        <h1>Moda que Inspira</h1>
+        <p>Descubra as últimas tendências e looks exclusivos para o seu estilo.</p>
+        <a class="hero-cta" href="#gallery">Explorar Coleção</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section block" id="categories">
+        <div class="section-header">
+          <div>
+            <h2>Categorias</h2>
+            <p>Escolha o estilo que combina com você.</p>
+          </div>
+          <a href="#gallery" class="link-button">Ver todas</a>
+        </div>
+        <div class="categories-grid" id="categoriesContainer"></div>
+      </section>
+
+      <section class="section block" id="trending">
+        <div class="section-header">
+          <div class="section-title-row">
+            <span class="trend-dot"></span>
+            <h2>Em Alta Agora</h2>
+          </div>
+          <a href="#trends" class="link-button">Ver tendências</a>
+        </div>
+        <div class="trending-grid" id="trendingContainer"></div>
+      </section>
+
+      <section class="section block" id="gallery">
+        <div class="section-header">
+          <div>
+            <h2>Galeria de Moda</h2>
+            <p>Todos os looks e inspirações em um só lugar.</p>
+          </div>
+        </div>
+        <div class="search-row">
+          <input id="searchInput" type="search" placeholder="Buscar looks, marcas..." />
+        </div>
+        <div class="filter-row" id="filtersContainer"></div>
+        <div class="gallery-grid" id="galleryContainer"></div>
+      </section>
+
+      <section class="section block" id="trends">
+        <div class="section-header">
+          <div>
+            <h2>Tendências da Moda</h2>
+            <p>O que está dominando passarelas e ruas.</p>
+          </div>
+        </div>
+        <div class="trends-list" id="trendsContainer"></div>
+      </section>
+
+      <section class="section block tip-section">
+        <div class="tip-card">
+          <p class="tip-label">✦ DICA DE ESTILO</p>
+          <h3>"O estilo é uma forma de dizer quem você é sem precisar falar."</h3>
+          <p class="tip-author">— Rachel Zoe</p>
+          <a class="link-button" href="#trends">Ver Tendências →</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
